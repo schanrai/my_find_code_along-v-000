@@ -6,7 +6,6 @@ def my_find(collection)
   if yield(collection[i])
             binding.pry
     return collection[i]
-
  end
    i = i+1
  end
